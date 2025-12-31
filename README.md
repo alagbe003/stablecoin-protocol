@@ -1,0 +1,56 @@
+# Stablecoin Protocol (USDS) 🏦
+
+A professional-grade, fiat-pegged stablecoin implementation built on Ethereum, inspired by the architecture of USDC.
+
+## Overview
+
+The **Stablecoin Protocol (USDS)** is an ERC20-compliant token designed for stability, security, and regulatory compliance. It features a robust access control system, minting/burning capabilities, and a pause mechanism for emergency situations.
+
+## Key Features
+
+- **ERC20 Standard**: Fully compatible with all Ethereum-based wallets and exchanges.
+- **6 Decimals**: Matches the precision of USDC for seamless integration.
+- **Access Control**: Role-based permissions for Minting, Pausing, and Administration.
+- **Emergency Pause**: Ability to halt transfers in case of security threats.
+- **Gasless Approvals**: Implements EIP-2612 (Permit) for better user experience.
+
+## Smart Contract Architecture
+
+- **`Stablecoin.sol`**: The core contract inheriting from OpenZeppelin's industry-standard libraries.
+- **Roles**:
+  - `DEFAULT_ADMIN_ROLE`: Can manage other roles.
+  - `MINTER_ROLE`: Authorized to create new tokens.
+  - `PAUSER_ROLE`: Authorized to pause/unpause the contract.
+
+## Tech Stack
+
+- **Language**: Solidity ^0.8.20
+- **Framework**: Hardhat / Foundry
+- **Libraries**: OpenZeppelin Contracts
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js & npm
+- Hardhat
+
+### Installation
+
+```bash
+npm install @openzeppelin/contracts
+```
+
+### Deployment
+
+```bash
+npx hardhat run scripts/deploy.js --network mainnet
+```
+
+## Security
+
+This protocol utilizes OpenZeppelin's audited contracts to ensure the highest level of security. However, always conduct a professional audit before deploying to a production environment.
+
+## License
+
+MIT
