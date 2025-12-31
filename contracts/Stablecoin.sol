@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
 /**
- * @title Stablecoin (USDS)
+ * @title Stablecoin (USDSK)
  * @dev Implementation of a professional stablecoin similar to USDC.
  * Features: Minting, Burning, Pausing, and Access Control.
  */
@@ -21,8 +21,8 @@ contract Stablecoin is ERC20, ERC20Burnable, AccessControl, ERC20Permit {
     event Unpaused(address account);
 
     constructor(address defaultAdmin, address minter)
-        ERC20("Simon Stablecoin", "USDS")
-        ERC20Permit("Simon Stablecoin")
+        ERC20("Simon Stablecoin K", "USDSK")
+        ERC20Permit("Simon Stablecoin K")
     {
         _grantRole(DEFAULT_ADMIN_ROLE, defaultAdmin);
         _grantRole(MINTER_ROLE, minter);

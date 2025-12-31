@@ -1,10 +1,10 @@
-# Stablecoin Protocol (USDS) 🏦
+# Stablecoin Protocol (USDSK) 🏦
 
 A professional-grade, fiat-pegged stablecoin implementation built on Ethereum, inspired by the architecture of USDC.
 
 ## Overview
 
-The **Stablecoin Protocol (USDS)** is an ERC20-compliant token designed for stability, security, and regulatory compliance. It features a robust access control system, minting/burning capabilities, and a pause mechanism for emergency situations.
+The **Stablecoin Protocol (USDSK)** is an ERC20-compliant token designed for stability, security, and regulatory compliance. It features a robust access control system, minting/burning capabilities, and a pause mechanism for emergency situations.
 
 ## Key Features
 

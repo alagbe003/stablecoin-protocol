@@ -1,7 +1,7 @@
 {
   "name": "stablecoin-protocol",
   "version": "1.0.0",
-  "description": "A professional-grade stablecoin implementation inspired by USDC.",
+  "description": "A professional-grade stablecoin implementation (USDSK) inspired by USDC.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
