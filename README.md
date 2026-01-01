@@ -1,4 +1,4 @@
-# Stablecoin Protocol (USDSK) 🏦
+# Stablecoin Protocol (USDSK) 
 
 A professional-grade, fiat-pegged stablecoin implementation built on **Scroll (zkEVM)**, designed to enable seamless, low-cost asset transfers across continents.
 
